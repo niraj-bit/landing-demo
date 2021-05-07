@@ -1,15 +1,16 @@
 import React from "react";
 import "./Header.css";
-import "./topbar"
+
 
 export default function Header() {
   return (
     <>
       {/* nav */}
-      {/* <nav className="navbar navbar-expand-lg navbar-light fixed-top">
-        <div className="container">
-          <a className="navbar-brand" href="#">
-            cybint
+      <nav className="navbar navbar-expand-lg navbar-light fixed-top">
+        <div className="container py-3">
+        <a href="#" class="d-flex align-items-center text-dark text-decoration-none">
+          {/* <a className="navbar-brand" href="#"> */}
+          <span class="fs-4">cybint</span>
           </a>
           <button
             className="navbar-toggler"
@@ -52,9 +53,8 @@ export default function Header() {
               </li>
             </ul>
           </div>
-          
         </div>
-      </nav> */}
+      </nav>
       
       {/* slider */}
       <div>
